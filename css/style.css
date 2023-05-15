@@ -3,12 +3,21 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "COMIC";
+    src: url("../font/COMIC.TTF");
+    }
+
 .header-menu {
     display: flex;
     padding: 20px;
     flex-direction: row;
     background-color: rgb(76, 175, 80);
     justify-content: space-around;
+}
+
+.header-menu-text {
+    font-family: 'COMIC';
 }
 
 header nav {
@@ -165,6 +174,24 @@ label {
     font-size: 20px;
     list-style: none;
     float: right;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(76, 175, 80);
+}
+
+.footer a {
+    color: rgb(76, 175, 80);
+    font-size: 30px;
+}
+
+.footer p {
+    font-size: 30px;
 }
 
 
