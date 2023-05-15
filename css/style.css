@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    background-color: rgb(76, 175, 80);
+    justify-content: space-around;
+}
+
+header nav {
+    width: 70%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header-title {
+    background-color: black;
+    padding: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.about, .achievements {
+    background-color: black;
+
+}
+.about, .projects, .achievements, .contact {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text, .achievements-text {
+    color: rgb(76, 175, 80);
+}
+
+.about-text, .projects-text, .achievements-text, .contact-text {
+    padding: 8vh;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 350px;
+
+}
+
+.about-image, .projects-image {
+    width: 40%;
+}
+
+.about-content, .projects-content {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+}
+
+.about-detail p {
+    color: white;
+}
+
+.about-detail, .projects-detail {
+    width: 70%;
+    font-size: 20px;
+    line-height: 40px;
+}
+.projects-detail {
+    padding-left: 30px;
+}
+.projects-detail li {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.projects a {
+    color: blue;
+}
+
+.projects, .contact {
+    background-color: rgb(194, 192, 195);
+}
+
+.achievements-content {
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+.achievements-content li {
+    color: white;
+    font-size: 23px;
+}
+
+.achievements-content nav > ul > li:first-child {
+    padding-bottom: 20px;
+}
+
+.achievements-content nav ul li ul {
+    margin-left: 40px;
+}
+
+form {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 50px;
+    margin: auto;
+}
+form input {
+    width: 200px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+textarea {
+    width: 200px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    color: white;
+    padding: 10px;
+}
+
+.contact-content {
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+}
+
+.menu-footer ul {
+    display: inline-block;
+}
+
+.menu-footer ul li {
+    padding: 20px;
+    font-size: 20px;
+    list-style: none;
+    float: right;
+}
+
+
+
