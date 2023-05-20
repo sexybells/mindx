@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.module-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4f9f5;
+}
+
+.top-cloud {
+    padding: 50px;
+    align-self: end;
+    margin-right: 50px;
+}
+
+.bottom-cloud {
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.header-text {
+    align-self: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header-text h1 {
+    padding-bottom: 50px;
+    color: #66bfbf;
+    font-size: 90px;
+    font-family: "Satisfy", cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+}
+
+.mountain {
+    align-self: center;
+}
+
+.module-profile {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 100px;
+}
+
+.profile-text {
+    align-self: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-text h2 {
+    padding-bottom: 20px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.module-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.skill-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.skill-text {
+    padding: 20px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module-touch {
+    text-align: center;
+    padding: 50px;
+}
+
+.module-touch p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20px;
+  }
+  a {
+    color: #11999e;
+  }
+
+  footer p {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+ 
+
+
+
